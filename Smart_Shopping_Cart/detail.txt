@@ -1,0 +1,25 @@
+
+
+Shopping mall is a spot where people get their necessities ranging from food products, biscuits, clothing, electrical appliances etc. 
+The numbers of large as well as small shopping malls has increased throughout the world due to increase on public demand & spending.
+Few times customers have faced the difficulties about the partial information about the product which he wants to purchase and waste of needless time at the billing counters after shopping. Continuous improvement should be needed in the outdated billing system to improve the quality of shopping practice to the customers.
+In today’s world, several companies are developing products that guarantee convenience to all the people.
+
+Many companies are trying to  provide customers  with new and relaxed shopping experience. With a great difficult of waiting in a long
+queue to get a bill after finishing the shopping, innovative technology must be implemented to offer lowest delay time. Thus, here a 
+Smart Shopping Cart, a system which allows faster check-out have been developed which have great advantages in big shopping malls. 
+In Manual billing system more time is consumed after shopping of items and maintenance cost of whole system is expensive And It does 
+not going to tell any automatic way of indicating  the shopper how the total bill is affected as items are added or removed from the cart. 
+Here such challenges have been solved effectivly.
+
+The shopper scans the product using the bar code scanner and the bill is automatically updated. The weight sensor is placed under the 
+cart which provides the total weight of the product in the cart, and the total weight of the products is also obtained from bar code 
+scanner. If both of these values are matched then billing process can be proceeded. The shopper is also provided with option of removing 
+the product from the cart where once again he needs to scan the product.The updated list of the products is displayed in the LCD screen. 
+Thus this system ensures that only the products which are scanned are packed and bill is generated.
+
+Load cell and barcode scanner is attached to the shopping cart. The load cell which is used here has a maximum capacity of 10Kg. HX711 is 
+used to amplify the weak signal from sensor and it also convert it into a 24bit digital data. Raspberry Pi converts the barcode scanner’s 
+output into a simple integer value. Later the integer value is used to obtain the information like weight of the added product from the 
+database. As the project deals with more number of ports, arduino is also used to meet the requirement. XBee modules are used to provide 
+the communication between cart and central system.   
